@@ -13,8 +13,6 @@ You can also import this project directly into Code.org's App Lab for further de
 The objective is to avoid obstacles and achieve the highest score possible.
 
 ## Customization Ideas
-- Change the character's appearance by modifying the images in the `images` folder.
-- Adjust the difficulty levels by changing obstacle speed and frequency in `script.js`.
 - Add new levels or game modes to enhance gameplay.
 
 ## Assets / Sprites
@@ -29,26 +27,13 @@ To run or remake this project, you’ll need these sprites/assets available in y
 **Obstacles / Hazards**
 - [ ] `obstacle_1` — first obstacle (ex: cone, rock, spike)
 - [ ] `obstacle_2` — second obstacle (optional variety)
-- [ ] `enemy_1` — moving hazard/enemy (optional)
 
 **Collectibles / Score**
-- [ ] `collectible_1` — item to pick up for points (ex: coin, star)
-- [ ] `powerup_1` — power-up item (optional)
-
-**Background / Environment**
-- [ ] `background` — scrolling or static background
-- [ ] `ground` — floor/track/platform (if your game uses one)
-- [ ] `cloud_1` — decorative element (optional)
-
-**UI / Effects**
-- [ ] `icon_heart` — lives/health (optional)
-- [ ] `effect_sparkle` — feedback effect for collecting (optional)
+- [ ] `target` — item to pick up for points (ex: coin, star)
 
 ### Asset guidelines
 
-- **Preferred format:** PNG with transparent background.
 - **Naming:** use the exact names above (or update the code to match your names).
 - **Sizing:** keep sprites roughly consistent (e.g., player and obstacles scaled so collisions feel fair).
-- **Origin/anchor:** ensure sprites aren’t offset weirdly (helps collisions look correct).
 
 If you use different names, update the code anywhere it calls `setAnimation(...)` to match.
